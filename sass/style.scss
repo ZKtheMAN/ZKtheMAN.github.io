@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "../node_modules/bulma/sass/helpers/color.sass";
+
+$body-background-color: #121a22;
+$box-background-color: $black-bis;
+$text: $grey-lightest;
+$title-color: $grey-lightest;
+
+@import "../node_modules/bulma/sass/base/_all.sass"; 
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+
+.zk-logo {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    z-index: 50;
+    height: 15vh; 
+    min-height: 100px;
+    width: auto;
+    filter: drop-shadow(0 0 5px black)
+}
+
+a {
+    color: skyblue;
+}
